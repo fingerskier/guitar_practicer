@@ -51,7 +51,7 @@ function generatePractice(): Practice {
 
 function App() {
   const [practice, setPractice] = useState<Practice | null>(null)
-  const audioCtx = useRef<AudioContext>()
+  const audioCtx = useRef<AudioContext | null>(null)
 
   const playRoot = (root: string, tempo: number) => {
     if (!audioCtx.current) {
