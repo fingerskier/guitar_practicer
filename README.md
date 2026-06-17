@@ -2,6 +2,8 @@
 
 This app selects a random practice drill for you based on a few musical variables.
 
+[App](https://fingerskier.github.io/guitar_practicer)
+
 ## Variables
 
 * Chord root
